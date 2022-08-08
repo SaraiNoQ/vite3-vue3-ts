@@ -15,6 +15,17 @@ const routes: RouteRecordRaw[] = [
     path: "/home",
     name: "Home",
     component: () => import("~/views/home/index.vue"),
+    children: [
+      {
+        path: "/index",
+        name: "首页",
+        component: () => import("~/views/index/index.vue"),
+        meta: {
+          icon: "home-outlined",
+          keepAlive: true,
+        },
+      },
+    ],
   },
 ];
 

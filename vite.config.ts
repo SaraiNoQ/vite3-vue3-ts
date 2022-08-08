@@ -22,7 +22,7 @@ export default defineConfig({
       less: {
         modifyVars: {
           "primary-color": "#1890ff",
-          "font-size-base": "18px",
+          "font-size-base": "14px",
         },
         additionalData: `
       @import "~/styles/variables.less";
