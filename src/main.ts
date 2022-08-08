@@ -6,7 +6,6 @@ import index from "./router";
 import { createPinia } from "pinia";
 import { registerStore } from "./store";
 
-import "~/styles/tailwind.css";
 import "~/styles/main.scss";
 import "~/styles/nprogress.scss";
 

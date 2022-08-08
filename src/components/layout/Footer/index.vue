@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="footer footer-center sticky bottom-0 border-t border-base-300 bg-base-200 bg-opacity-90 px-4 pt-2 text-base-content"
+    class="footer footer-center border-base-300 bg-base-200 text-base-content sticky bottom-0 border-t bg-opacity-90 px-4 pt-2"
   >
     <div class="flex w-full max-w-6xl flex-row items-center justify-between gap-6">
       <a
@@ -9,7 +9,7 @@
         rel="nofollow"
         class="inline-flex items-center justify-center hover:opacity-90"
         ><div class="avatar mr-3">
-          <div class="mask mask-squircle h-14 w-14 bg-neutral p-px">
+          <div class="mask mask-squircle bg-neutral h-14 w-14 p-px">
             <img
               loading="lazy"
               width="54"
@@ -21,8 +21,8 @@
           </div>
         </div>
         <div class="text-left">
-          <p class="text-xs text-base-content text-opacity-50">Created by</p>
-          <h2 class="text-lg font-bold text-base-content">Kirk Lin</h2>
+          <p class="text-base-content text-xs text-opacity-50">Created by</p>
+          <h2 class="text-base-content text-lg font-bold">Kirk Lin</h2>
         </div>
       </a>
       <div class="flex flex-col items-center gap-4 text-left sm:flex-row">
@@ -31,10 +31,10 @@
             href="https://github.com/kirklin/vite-boot"
             target="_blank"
             rel="nofollow"
-            class="flex w-[130px] flex-col items-center rounded bg-base-100"
+            class="bg-base-100 flex w-[130px] flex-col items-center rounded"
           >
-            <h3 class="p-2 text-xs font-bold text-base-content/50">viteBoot™</h3>
-            <p class="px-1.5 py-2 text-xs tracking-tighter text-base-content/50">
+            <h3 class="text-base-content/50 p-2 text-xs font-bold">viteBoot™</h3>
+            <p class="text-base-content/50 px-1.5 py-2 text-xs tracking-tighter">
               All Rights Reserved.
             </p>
           </a>

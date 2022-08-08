@@ -15,5 +15,4 @@ module.exports = {
     },
   ],
   arrowParens: "always",
-  plugins: [require("prettier-plugin-tailwindcss")],
 };
