@@ -1,5 +1,5 @@
 <template>
-  <div>Error{{ errorCode }} <button @click="back">back</button></div>
+  <div>Error{{ errorCode }} <a-button @click="back">back</a-button></div>
 </template>
 <script setup lang="ts">
 import { ref } from "vue";

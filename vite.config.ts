@@ -19,9 +19,13 @@ export default defineConfig({
   },
   css: {
     preprocessorOptions: {
-      scss: {
+      less: {
+        modifyVars: {
+          "primary-color": "#1890ff",
+          "font-size-base": "18px",
+        },
         additionalData: `
-      @import "~/styles/variables.scss";
+      @import "~/styles/variables.less";
     `,
         javascriptEnabled: true,
       },
